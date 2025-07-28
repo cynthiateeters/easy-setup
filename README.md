@@ -21,9 +21,17 @@ By completing this assignment, you will:
    - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the Command Palette
    - Type: `Extensions: Install from VSIX...`
    - Press Enter
+   
+   ![Command Palette Extensions Install](https://github.com/cynthiateeters/easy-setup/blob/main/images/command-palette-extensions-install-from-vsix.png)
+   
    - Navigate to this folder and select: `git-configurator-for-grid-0.1.0.vsix`
+   
+   ![Find VSIX File](https://github.com/cynthiateeters/easy-setup/blob/main/images/find-vsix-file.png)
+   
    - Click "Install"
    - Wait for the installation to complete
+   
+   ![Completed Installing Extension](https://github.com/cynthiateeters/easy-setup/blob/main/images/completed-installing-extension.png)
 
 ### Step 2: Run the Git Configuration
 
@@ -33,16 +41,29 @@ By completing this assignment, you will:
 2. **Run the Git Configurator**
    - Type: `Configure Git For Grid`
    - Press Enter
+   
+   ![Configure Git For Grid](https://github.com/cynthiateeters/easy-setup/blob/main/images/configure-git-for-grid.png)
 
 3. **Follow the extension prompts**
    - The extension will guide you through the setup process
+   
+   ![Welcome Git Configurator](https://github.com/cynthiateeters/easy-setup/blob/main/images/welcome-git-configurator.png)
+   
    - Enter your **full name** when prompted (e.g., "John Smith")
+   
+   ![Git Username Input](https://github.com/cynthiateeters/easy-setup/blob/main/images/git-username-input.png)
+   
    - Enter your **email address** when prompted (preferably your school email)
+   
+   ![Git Email Input](https://github.com/cynthiateeters/easy-setup/blob/main/images/git-email-input.png)
+   
    - Wait for the extension to complete the configuration
 
 4. **Verify success**
    - You should see a success message
    - A new file called `git-config-check.txt` should appear in your workspace
+   
+   ![Git Config Check](https://github.com/cynthiateeters/easy-setup/blob/main/images/git-config-check.png)
 
 ### Step 3: Commit and Push Your Changes
 
@@ -52,6 +73,8 @@ Now you'll use VS Code's Source Control panel to commit and push the verificatio
    - Look for the Source Control icon in the left sidebar (looks like a branching tree symbol)
    - Click it to open the Source Control panel
    - You should see `git-config-check.txt` listed as a new file
+   
+   ![Source Control Panel](https://github.com/cynthiateeters/easy-setup/blob/main/images/source-control-panel.png)
 
 2. **Stage the file**
    - In the Source Control panel, you'll see `git-config-check.txt` under "Changes"
@@ -64,11 +87,15 @@ Now you'll use VS Code's Source Control panel to commit and push the verificatio
      Add Git configuration verification file
      ```
    - Click the **checkmark** button (✓) above the text box to commit
+   
+   ![Add Git Config](https://github.com/cynthiateeters/easy-setup/blob/main/images/add-git-config.png)
 
 4. **Push to GitHub**
    - Click the **three dots** (`...`) in the Source Control panel
    - Select **"Push"** from the menu
    - Your changes will be uploaded to GitHub
+   
+   ![Sync Changes](https://github.com/cynthiateeters/easy-setup/blob/main/images/sync-changes.png)
 
 ### Step 4: Verify Completion
 
