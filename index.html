@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Configuration Assignment</title>
+</head>
+<body>
+
+
+<section style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333;">
+    <h2 style="color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px;">Git Configuration Assignment</h2>
+    <div style="background-color: #ecf0f1; padding: 15px; border-left: 4px solid #3498db; margin: 20px 0;"><strong>Objective:</strong> Configure your Git settings and verify they work correctly with VS Code's Source Control panel.</div>
+    <h2 style="color: #34495e; margin-top: 30px;">What You'll Accomplish</h2>
+    <p>By completing this assignment, you will:</p>
+    <ul style="padding-left: 25px;">
+        <li style="margin-bottom: 8px;">Configure your Git username and email settings</li>
+        <li style="margin-bottom: 8px;">Learn to install VS Code extensions from a file</li>
+        <li style="margin-bottom: 8px;">Practice using VS Code's Source Control panel for your first commit and push</li>
+        <li style="margin-bottom: 8px;">Verify your Git configuration is working correctly</li>
+    </ul>
+    <h2 style="color: #34495e; margin-top: 30px;">Instructions</h2>
+    <div style="background-color: #f8f9fa; padding: 15px; margin: 15px 0; border-radius: 5px; border-left: 4px solid #27ae60;">
+        <h3 style="color: #2980b9; margin-top: 25px;"><span style="color: #139b4bff;">Step 1:</span> Install the Git Configurator Extension</h3>
+        <ol>
+            <li style="margin-bottom: 8px;"><strong>Open this repository in VS Code</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Make sure you have this entire folder open as your workspace</li>
+                </ul>
+            </li>
+            <li style="margin-bottom: 8px;"><strong>Install the extension from the VSIX file</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Press <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">Ctrl+Shift+P</code> (Windows/Linux) or <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">Cmd+Shift+P</code> (Mac) to open the Command Palette</li>
+                    <li style="margin-bottom: 8px;">Type: <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">Extensions: Install from VSIX...</code></li>
+                    <li style="margin-bottom: 8px;">Press Enter</li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/command-palette-extensions-install-from-vsix.png?raw=true" alt="Command Palette showing Extensions: Install from VSIX... option" style="max-width: 100%; height: auto;"></div>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Navigate to this folder and select: <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">git-configurator-for-grid-0.1.0.vsix</code></li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/find-vsix-file.png?raw=true" alt="File dialog showing VSIX file selection" style="max-width: 100%; height: auto;"></div>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Click "Install"</li>
+                    <li style="margin-bottom: 8px;">Wait for the installation to complete</li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/completed-installing-extension.png?raw=true" alt="Extension installation completed notification" style="max-width: 100%; height: auto;"></div>
+            </li>
+        </ol>
+    </div>
+    <div style="background-color: #f8f9fa; padding: 15px; margin: 15px 0; border-radius: 5px; border-left: 4px solid #27ae60;">
+        <h3 style="color: #2980b9; margin-top: 25px;"><span style="color: #139b4bff;">Step 2:</span> Run the Git Configuration</h3>
+        <ol>
+            <li style="margin-bottom: 8px;"><strong>Open the Command Palette again</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Press <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">Ctrl+Shift+P</code> (Windows/Linux) or <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">Cmd+Shift+P</code> (Mac)</li>
+                </ul>
+            </li>
+            <li style="margin-bottom: 8px;"><strong>Run the Git Configurator</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Type: <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">Configure Git For Grid</code></li>
+                    <li style="margin-bottom: 8px;">Press Enter</li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/configure-git-for-grid.png?raw=true" alt="Command Palette showing Configure Git For Grid command" style="max-width: 100%; height: auto;"></div>
+            </li>
+            <li style="margin-bottom: 8px;"><strong>Follow the extension prompts</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">The extension will guide you through the setup process</li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/welcome-git-configurator.png?raw=true" alt="Welcome message from Git Configurator extension" style="max-width: 100%; height: auto;"></div>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Enter your <strong>full name</strong> when prompted (e.g., "John Smith")</li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/git-username-input.png?raw=true" alt="Input dialog for Git username" style="max-width: 100%; height: auto;"></div>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Enter your <strong>email address</strong> when prompted (preferably your school email)</li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/git-email-input.png?raw=true" alt="Input dialog for Git email address" style="max-width: 100%; height: auto;"></div>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Wait for the extension to complete the configuration</li>
+                </ul>
+            </li>
+            <li style="margin-bottom: 8px;"><strong>Verify success</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">You should see a success message</li>
+                    <li style="margin-bottom: 8px;">A new file called <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">git-config-check.txt</code> should appear in your workspace</li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/git-config-check.png?raw=true" alt="Git configuration check file created in workspace" style="max-width: 100%; height: auto;"></div>
+            </li>
+        </ol>
+    </div>
+    <div style="background-color: #f8f9fa; padding: 15px; margin: 15px 0; border-radius: 5px; border-left: 4px solid #27ae60;">
+        <h3 style="color: #2980b9; margin-top: 25px;"><span style="color: #139b4bff;">Step 3:</span> Commit and Push Your Changes</h3>
+        <p>Now you'll use VS Code's Source Control panel to commit and push the verification file:</p>
+        <ol>
+            <li style="margin-bottom: 8px;"><strong>Open the Source Control panel</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Look for the Source Control icon in the left sidebar (looks like a branching tree symbol)</li>
+                    <li style="margin-bottom: 8px;">Click it to open the Source Control panel</li>
+                    <li style="margin-bottom: 8px;">You should see <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">git-config-check.txt</code> listed as a new file</li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/source-control-panel.png?raw=true" alt="VS Code Source Control panel showing new file" style="max-width: 100%; height: auto;"></div>
+            </li>
+            <li style="margin-bottom: 8px;"><strong>Stage the file</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">In the Source Control panel, you'll see <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">git-config-check.txt</code> under "Changes"</li>
+                    <li style="margin-bottom: 8px;">Click the <strong><code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">+</code></strong> button next to the filename to stage it</li>
+                    <li style="margin-bottom: 8px;">The file should move to "Staged Changes"</li>
+                </ul>
+            </li>
+            <li style="margin-bottom: 8px;"><strong>Create a commit</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">In the text box at the top of the Source Control panel, type a commit message:</li>
+                </ul>
+                <div style="background-color: #2c3e50; color: white; padding: 15px; border-radius: 5px; font-family: 'Courier New', monospace; margin: 10px 0;">Add Git configuration verification file</div>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Click the <strong>checkmark</strong> button (✓) above the text box to commit</li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/add-git-config.png?raw=true" alt="Creating a commit with message in Source Control panel" style="max-width: 100%; height: auto;"></div>
+            </li>
+            <li style="margin-bottom: 8px;"><strong>Push to GitHub</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Click the <strong>three dots</strong> (<code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">...</code>) in the Source Control panel</li>
+                    <li style="margin-bottom: 8px;">Select <strong>"Push"</strong> from the menu</li>
+                    <li style="margin-bottom: 8px;">Your changes will be uploaded to GitHub</li>
+                </ul>
+                <div style="background-color: #ecf0f1; border: 2px dashed #bdc3c7; padding: 20px; text-align: center; margin: 15px 0; border-radius: 5px;"><img src="https://github.com/cynthiateeters/easy-setup/blob/main/images/sync-changes.png?raw=true" alt="Push menu option in Source Control panel" style="max-width: 100%; height: auto;"></div>
+            </li>
+        </ol>
+    </div>
+    <div style="background-color: #f8f9fa; padding: 15px; margin: 15px 0; border-radius: 5px; border-left: 4px solid #27ae60;">
+        <h3 style="color: #2980b9; margin-top: 25px;"><span style="color: #139b4bff;">Step 4:</span> Verify Completion</h3>
+        <ol>
+            <li style="margin-bottom: 8px;"><strong>Check your commit</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Go to your repository on GitHub (in your web browser)</li>
+                    <li style="margin-bottom: 8px;">You should see your commit with the message "Add Git configuration verification file"</li>
+                    <li style="margin-bottom: 8px;">The <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">git-config-check.txt</code> file should be visible in your repository</li>
+                </ul>
+            </li>
+            <li style="margin-bottom: 8px;"><strong>Verify your Git identity</strong>
+                <ul style="padding-left: 25px;">
+                    <li style="margin-bottom: 8px;">Click on your commit on GitHub</li>
+                    <li style="margin-bottom: 8px;">Verify that your name and email appear correctly as the commit author</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <h2 style="color: #34495e; margin-top: 30px;">Troubleshooting</h2>
+    <div style="background-color: #fef9e7; padding: 15px; border-left: 4px solid #f39c12; margin: 15px 0;">
+        <h3 style="color: #2980b9; margin-top: 25px;">Extension Installation Issues</h3>
+        <ul style="padding-left: 25px;">
+            <li style="margin-bottom: 8px;"><strong>"Command not found"</strong>: Make sure you installed the extension and restarted VS Code if needed</li>
+            <li style="margin-bottom: 8px;"><strong>"VSIX file not found"</strong>: Make sure you're selecting the file from the correct folder</li>
+        </ul>
+    </div>
+    <div style="background-color: #fef9e7; padding: 15px; border-left: 4px solid #f39c12; margin: 15px 0;">
+        <h3 style="color: #2980b9; margin-top: 25px;">Git Configuration Issues</h3>
+        <ul style="padding-left: 25px;">
+            <li style="margin-bottom: 8px;"><strong>"Git not found"</strong>: Make sure Git is installed on your computer</li>
+            <li style="margin-bottom: 8px;"><strong>Authentication errors</strong>: Make sure you're logged into GitHub and have access to this repository</li>
+        </ul>
+    </div>
+    <div style="background-color: #fef9e7; padding: 15px; border-left: 4px solid #f39c12; margin: 15px 0;">
+        <h3 style="color: #2980b9; margin-top: 25px;">Source Control Issues</h3>
+        <ul style="padding-left: 25px;">
+            <li style="margin-bottom: 8px;"><strong>No Source Control panel</strong>: Make sure you have the folder open as a workspace in VS Code</li>
+            <li style="margin-bottom: 8px;"><strong>Can't see the file</strong>: Make sure <code style="background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: 'Courier New', monospace;">git-config-check.txt</code> was created by the extension</li>
+            <li style="margin-bottom: 8px;"><strong>Push fails</strong>: Make sure you have write access to this repository and are logged into GitHub</li>
+        </ul>
+    </div>
+    <div style="background-color: #fdf2e9; border-left: 4px solid #e67e22; padding: 15px; margin: 15px 0;">
+        <h3 style="color: #2980b9; margin-top: 25px;">Getting Help</h3>
+        <ul style="padding-left: 25px;">
+            <li style="margin-bottom: 8px;">Check that you followed each step exactly as written</li>
+            <li style="margin-bottom: 8px;">Make sure your repository is open as a workspace in VS Code</li>
+            <li style="margin-bottom: 8px;">Ask your instructor for help if you're still having trouble</li>
+        </ul>
+    </div>
+    <div style="background-color: #e8f5e8; padding: 20px; border-radius: 5px; margin: 20px 0;">
+        <h2 style="color: #34495e; margin-top: 30px;">What This Assignment Teaches</h2>
+        <ul style="padding-left: 25px;">
+            <li style="margin-bottom: 8px;"><strong>Extension Installation</strong>: How to install VS Code extensions from files</li>
+            <li style="margin-bottom: 8px;"><strong>Git Configuration</strong>: Setting up your identity for version control</li>
+            <li style="margin-bottom: 8px;"><strong>Source Control Workflow</strong>: The basic Git workflow using VS Code's GUI</li>
+            <li style="margin-bottom: 8px;"><strong>File Staging</strong>: Understanding the concept of staging changes</li>
+            <li style="margin-bottom: 8px;"><strong>Commits</strong>: Creating meaningful commit messages</li>
+            <li style="margin-bottom: 8px;"><strong>Push Operations</strong>: Uploading your changes to a remote repository</li>
+        </ul>
+    </div>
+    <div style="background-color: #d5f4e6; padding: 15px; border-left: 4px solid #27ae60; margin: 20px 0;">
+        <h2 style="color: #34495e; margin-top: 30px;">Assignment Complete!</h2>
+        <p>Once you successfully push your commit to GitHub, you have completed this assignment. Your Git configuration is now set up correctly and you're ready for future coding assignments that require version control.</p>
+    </div>
+    <h2 style="color: #34495e; margin-top: 30px;">Next Steps</h2>
+    <p>In future assignments, you'll use this same Source Control workflow to:</p>
+    <ul style="padding-left: 25px;">
+        <li style="margin-bottom: 8px;">Save your work with meaningful commits</li>
+        <li style="margin-bottom: 8px;">Track your progress on projects</li>
+        <li style="margin-bottom: 8px;">Submit assignments by pushing to GitHub</li>
+        <li style="margin-bottom: 8px;">Collaborate with others on group projects</li>
+    </ul>
+    <p><strong>Great job setting up your development environment! 🎉</strong></p>
+</section>
+</body>
+</html>
